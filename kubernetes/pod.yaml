@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: qandab-pod
+  namespace: default
+spec:
+  containers:
+  - name: qandab-container
+    image: nginx
+    ports:
+    - containerPort: 80
