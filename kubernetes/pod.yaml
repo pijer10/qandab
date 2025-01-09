@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: qandab-pod
+  name: qandab-pod-testing
   namespace: default
 spec:
   containers:
